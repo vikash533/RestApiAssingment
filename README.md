@@ -18,5 +18,16 @@ Clone the project to your local machine:
 ```bash
 git clone <repository-url>
 cd <project-folder>
+```
+
+### 2. Build the Project
+```bash
+mvn clean install
+```
+### 3.After building, run the tests
+```bash
+mvn test
+```
+
 
 
